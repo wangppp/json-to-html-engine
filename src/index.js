@@ -77,14 +77,5 @@ function createDom(config) {
     return d;
 }
 
-var dom_config = {
-    "h2": "Weback tools that imporove front-end work flows.",
-    "h3": "It\'s allways good to be using tools. Don\'t waste your time.",
-    "h4*3": "Don\'t repeat yourself!",
-    "h5": "Important thing should be mentioned three times!",
-    "ol":{
-        "li": ["Just be simple.", "Good to go.", "No bullshit."]
-    }
-};
-console.log('123');
-document.body.appendChild(createDom(dom_config));
+
+exports =  createDom;
